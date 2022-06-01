@@ -1,0 +1,39 @@
+{
+  "carros": [
+    {
+      "id": 1,
+      "nome": "Focus",
+      "cor": "Roxo"
+    },
+    {
+      "id": 2,
+      "nome": "Fiesta",
+      "cor": "Branco"
+    },
+    {
+      "id": 3,
+      "nome": "Ka",
+      "cor": "Preto"
+    },
+    {
+      "id": 4,
+      "nome": "Fusion",
+      "cor": "Branco"
+    },
+    {
+      "id": 5,
+      "nome": "Mustang",
+      "cor": "Laranja"
+    },
+    {
+      "nome": "Ranger",
+      "cor": "Branco",
+      "id": 6
+    },
+    {
+      "nome": "Mustang-E",
+      "cor": "Amarelo",
+      "id": 7
+    }
+  ]
+}

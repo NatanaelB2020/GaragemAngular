@@ -1,0 +1,13 @@
+<div class="carros">
+  <h2> Carros </h2>
+  <button class="c-carro" routerLink="/create" >Criar novo Carro</button>
+  </div >
+<div class="card">
+<div *ngFor="let carro of carros">
+  <p class="first-p">Modelo: {{carro.nome}}</p>
+  <p class="first-p">Cor: {{carro.cor}}</p>
+  <button class="c-carro" routerLink="/carros/{{carro.id}}">Selecionar carro</button>
+  <button class="c-carro" (click)="remove(carro)">Deletar carro</button>
+  
+</div>
+</div>

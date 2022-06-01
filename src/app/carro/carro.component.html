@@ -1,0 +1,10 @@
+<div *ngIf="carro">
+  <h2 class="h2-1">Editando: {{carro.nome}}</h2>
+  <input class="form-input" placeholder="" required="" type="text" [(ngModel)]="carro.nome">
+  <input  class="form-input" placeholder="" required="" type="text" [(ngModel)]="carro.cor">
+  <div class="aligan">
+  <button (click)="save()" class="button">Salvar</button>
+  <button (click)="goBack()" class="button">Voltar</button>
+  </div>
+</div>
+

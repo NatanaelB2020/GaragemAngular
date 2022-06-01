@@ -1,0 +1,15 @@
+<div >
+<h1 class="h1-1">Adicionar carro:</h1>
+<div>
+  <label for="nome" class="form-label"></label>
+  <input class="form-input" placeholder="Modelo" required="" id="nome" [(ngModel)] ="carro.nome" />
+</div>
+<div>
+  <label for="cor" class="form-label2"></label>
+  <input class="form-input2" placeholder="Cor" required="" id="cor" [(ngModel)] = "carro.cor" />
+</div>
+<div class="aligan">
+<button (click)="create()" class="button">Criar carro</button>
+<button (click)="goBack()" class="button">Voltar</button>
+</div>
+</div>
